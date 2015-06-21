@@ -1,5 +1,5 @@
 #Data Dictionary - *tidyData.txt*
-The data in *tidyData.txt* is produced by the raw data from the link on course website
+The data in *tidyData.txt* is produced by applying run_analysis.R to the raw data from the link on course website
 <br/>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip<br /> which represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 * The experiments have been carried out with a group of **30 volunteers (subjects)** with each performed **6 activities** (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone with embedded **accelerometer** and **gyroscope**.
 * The features selected for this database come from the accelerometer and gyroscope 3-axial

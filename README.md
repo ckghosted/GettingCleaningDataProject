@@ -114,7 +114,7 @@ The data linked to from the course website
     names(XDataSelected) = descriptiveVariableNames
     ```
     
-5. Creates the tidy data set with the average of each variable for each activity and each subject. This is done by **aggregate()** function, in which the target R object is all the measurements on the mean and standard deviation in **XDataSelected**, and the list of grouping elements are set to first *subjectID* and then *activity*, which means that the **mean()** function is applied by groups first specified by *subjectID* and then specified by *activity*. The result is a 180-by 68 data.frame called **XDataAverage**. Finally, **arrange()** function is used to sort the rows of **XDataAverage** by *subjectID*.
+5. Creates the tidy data set with the average of each variable for each activity and each subject. This is done by **aggregate()** function, in which the target R object is all the measurements on the mean and standard deviation in **XDataSelected**, and the list of grouping elements are set to first *subjectID* and then *activity*, which means that the **mean()** function is applied by groups first specified by *subjectID* and then specified by *activity*. The result is a 180-by-68 data.frame called **XDataAverage**. Finally, **arrange()** function is used to sort the rows of **XDataAverage** by *subjectID*.
     
     ```sh
     # Use the aggregate function to apply the mean function to every column in
